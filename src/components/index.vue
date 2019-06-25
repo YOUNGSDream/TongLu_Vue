@@ -27,7 +27,7 @@
         methods:{
    changeTo(e){
      console.log(e)
-     
+     this.$router.push({ path:'/stationMonitor?userId='+e})
    }
   },
   mounted(){
