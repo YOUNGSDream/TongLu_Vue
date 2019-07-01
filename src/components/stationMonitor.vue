@@ -15,6 +15,7 @@
         created(){
             console.log('this is stationMonitor page');
             this.text  = this.$route.query.userId;
+            
         },
         
     }
